@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="hamburger.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+
+  <title>SRS | WEB Design</title>
+
+</head>
+<body>
+                              <!-- Top-banner -->
+
+    <div class="header">
+        <div class="header-left">
+          <a href="mailto:sergiu_r0bert@yahoo.com" class="fas fa-envelope-open" ><span>E-mail: office@mpsro.ro</span></a>
+          <a href="#" ><img src="images/phone.png" height="14px"><span> +40 31 436 94 22</span></a>
+          <a href="#" class="fas fa-clock"><span>Luni - Vineri: 09:00 - 18:00</span></a>
+        </div>
+        <div class="header-right">
+          <ul class="header-lang">
+            <li><img src="images/flags/gb.svg" alt="" height="15px" width="16px"><span>EN</span></li>
+            <li><img src="images/flags/ro.svg" alt="" height="15px" width="16px"><span>RO</span></li>
+            <li><img src="images/flags/de.svg" alt="" height="15px" width="16px"><span>GR</span></li>
+          </ul>
+          <i class="fa fa-angle-down" color="#fff"></i>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div class="header-right-maxw768">
+          <ul class="header-lang-maxw768">
+            <li><img src="images/flags/gb.svg" alt="" height="15px" width="16px"></li>
+            <li><img src="images/flags/ro.svg" alt="" height="15px" width="16px"></li>
+            <li><img src="images/flags/de.svg" alt="" height="15px" width="16px"></li>
+          </ul>
+
+        </div>
+    </div>
+
+
+
+                              <!-- NavBar -->
+
+
+        <div class="navigation">  
+          <div class="navbar">
+              <input type="checkbox" class="toggler"/>
+              <div class="hamburger"><div></div></div>
+              <div class="menu">
+                <div>
+                  <div>
+                  <a href="#">Despre noi</a>
+                  <a href="#">Servicii</a>
+                  <a href="#">Articole</a>
+                  <a href="#">Ce spun Clientii</a>
+                  <a href="#">Parteneri</a>
+                  <a href="#">Contact</a>
+                  <a href="#"><span>Cere oferta</span></a>
+                </div>
+              </div>
+              </div>
+          </div>  
+          <div class="topnav container">
+              <div class="topnav-left">
+                <img src="images/2.jpg" alt="">
+              </div>
+      
+              <div class="topnav-center">
+                <ul>
+                  <li>Despre</li>
+                  <li>Servicii</li>
+                  <li>Articole</li>
+                  <li>Ce spun Clientii</li>
+                  <li>Parteneri</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+      
+              <div class="topnav-right">
+                <button class="btn btn-link"><a href="#">Cere oferta</a></button>
+              </div>
+          </div>
+
+
+
+                              <!-- Section A - Slide Show img -->
+
+    <div id="section-A" class="section-A">
+        <div class="slide-show">
+	
+            <input type="radio" id="i1" name="images" checked />
+            <input type="radio" id="i2" name="images" />
+            <input type="radio" id="i3" name="images" />
+            <input type="radio" id="i4" name="images" />
+            <input type="radio" id="i5" name="images" />	
+            
+            <div class="slide_img" id="one">			
+                  
+                  <img src="images/worker/w5.jpg">
+                  <label class="prev" for="i5"><span>&#x2039;</span></label>
+                  <label class="next" for="i2"><span>&#x203a;</span></label>	
+              
+            </div>
+            
+            <div class="slide_img" id="two">
+              
+                  <img src="images/worker/w1.jpg">
+                  <label class="prev" for="i1"><span>&#x2039;</span></label>
+                  <label class="next" for="i3"><span>&#x203a;</span></label>
+              
+            </div>
+                
+            <div class="slide_img" id="three">
+
+                  <img src="images/worker/w2.jpg">
+                  <label class="prev" for="i2"><span>&#x2039;</span></label>
+                  <label class="next" for="i4"><span>&#x203a;</span></label>
+            </div>
+          
+            <div class="slide_img" id="four">
+
+                  <img src="images/worker/w3.jpg">
+                  <label class="prev" for="i3"><span>&#x2039;</span></label>
+                  <label class="next" for="i5"><span>&#x203a;</span></label>
+            </div>
+          
+            <div class="slide_img" id="five">
+
+                  <img src="images/worker/w4.jpg">
+                  <label class="prev" for="i4"><span>&#x2039;</span></label>
+                  <label class="next" for="i1"><span>&#x203a;</span></label>
+          
+            </div>
+          
+            <div id="nav_slide">
+              <label for="i1" class="dots" id="dot1"></label>
+              <label for="i2" class="dots" id="dot2"></label>
+              <label for="i3" class="dots" id="dot3"></label>
+              <label for="i4" class="dots" id="dot4"></label>
+              <label for="i5" class="dots" id="dot5"></label>
+            </div>
+              
+          </div>
+          
+          
+    </div>
+
+
+
+                              <!-- Section B - Despre noi -->
+  <div id="section-B" class="section-B container">
+    <div class="aboutUs">
+
+      <div class="aboutUs-left">
+        <span>Bine ati venit la MPS</span>
+        <h2>Despre <b>noi</b></h2>
+        <div class="border"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nesciunt odio culpa esse at quo facilis maxime tempora repellendus eaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nesciunt sunt mollitia maiores commodi repellendus quibusdam aliquam porro debitis atque?</p>
+        <ul>
+          <li><a href=""><i class="fas fa-arrow-circle-right"></i>O solutie personalizata nevoii Dvs de forta de munca</a></li>
+          <li><a href=""><i class="fas fa-arrow-circle-right"></i>Sisteme operativ puternic, resurse globale si experienta in domeniu</a></li>
+          <li><button class="btn btn-primary"><b>mai multe</b></button></li>
+        </ul>
+      </div>
+
+      <div class="aboutUs-right">
+        <img src="images/worker.jpeg" alt="">
+      </div>
+      
+    </div>
+  </div>
+
+
+
+                              <!-- Section C - Serviciile noastre -->
+
+  <div id="section-C" class="section-C container">
+      <div class="services-section">
+          <div class="services-container">
+            <p class="mps">MPS va ofera</p>
+            <h2 class="section-title">Serviciile <b>noastre</b></h2>
+
+
+              <div class="services-boxes">
+        
+                <div class="services-box">
+                  <div class="services-img">
+                    <img src="images/briefcase.png" alt=""> 
+                  </div>
+                  <div class="services-title">Recrutare personal din Asia</div>
+                  <div class="services-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur?
+                  </div>
+                  <div class="maimulte">
+                     <a href="#">Mai Multe<i class="fa fa-arrow-right"></i></a>
+                  </div>
+                </div>
+        
+                <div class="services-box">
+                  <div class="services-img">
+                    <img src="images/world.png" alt="">
+                  </div>
+                  <div class="services-title">Servicii de imigrare</div>
+                  <div class="services-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, error ex.</p>
+                  </div>
+                  <div class="maimulte">
+                      <a href="#">Mai Multe<i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+        
+                <div class="services-box">
+                  <div class="services-img">
+                    <img src="images/people.png" alt=""> 
+                  </div>
+                  <div class="services-title">Candidatii</div>
+                  <div class="services-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur?
+                  </div>
+                  <div class="maimulte">
+                    <a href="#">Mai Multe<i class="fa fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+
+          </div>
+        </div>
+  </div>
+
+
+
+                              <!-- Srcyion D - Testimoniale -->
+
+  <div id="section-D" class="section-D container">
+
+    <div class="testimonial-slide">
+
+
+              <div class="tstml-title-box">
+                  <p class="mps">MPS va ofera</p>
+                  <h2 class="tstml-title">Ce spun <b>clientii</b></h2>
+              </div>
+
+    
+              <input type="radio" id="t1" name="tstml" checked />
+              <input type="radio" id="t2" name="tstml" />
+              <input type="radio" id="t3" name="tstml" />
+              <input type="radio" id="t4" name="tstml" />
+              <input type="radio" id="t5" name="tstml" />	
+              
+
+            <div class="tstml-box" id="tstml1">			
+                  
+                  <div class="tstml-box-left">
+                        <div class="tstml-second-box">
+                            <div class="tstml-grid tstml-box-1">
+                              <img src="images/portrait/p1.jpeg" alt="" width="56px" height="56px">
+                            </div>
+
+                            <div class="tstml-grid tstml-box-2">
+                              <p>Urs Daniel</p>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="tstml-grid tstml-box-3">
+                                <img src="images/quote.png" >
+                            </div>
+                            <div class="tstml-grid tstml-box-4">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                            </div>
+                            <div class="tstml-grid tstml-box-5">
+                                <p><i class="fas fa-minus"></i>Client MPS</p>
+                            </div>
+                        </div>
+                  </div>
+
+                      <div class="tstml-box-right">
+                        <div class="tstml-second-box">
+                          <div class="tstml-grid tstml-box-1">
+                              <img src="images/portrait/p2.jpeg" alt="" width="56px" height="56px">
+                            </div>
+
+                            <div class="tstml-grid tstml-box-2">
+                              <p>Bucsa Gheorge</p>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="tstml-grid tstml-box-3">
+                                <img src="images/quote.png">
+                            </div>
+                            <div class="tstml-grid tstml-box-4">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                            </div>
+                            <div class="tstml-grid tstml-box-5">
+                              <p><i class="fas fa-minus"></i>Client MPS</p>
+                            </div>
+                        </div>
+                      </div>
+                      
+                    
+
+                  <label class="prev" for="t5"><span>&#x2039;</span></label>
+                  <label class="next" for="t2"><span>&#x203a;</span></label>	
+                </div> 
+              
+              
+              <div class="tstml-box" id="tstml2">
+                
+                    <div class="tstml-box-left">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                             <img src="images/portrait/p3.jpeg" alt="" width="56px" height="56px">
+                           </div>
+
+                           <div class="tstml-grid tstml-box-2">
+                             <p>Pientea Maria</p>
+                               <div class="stars">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="far fa-star"></i>
+                               </div>
+                            </div>
+                            <div class="tstml-grid tstml-box-3">
+                                <img src="images/quote.png" >
+                            </div>
+                            <div class="tstml-grid tstml-box-4">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                            </div>
+                            <div class="tstml-grid tstml-box-5">
+                              <p><i class="fas fa-minus"></i>Client MPS</p>
+                            </div>
+                          </div>
+                      </div>
+
+                       <div class="tstml-box-right">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                               <img src="images/portrait/p4.jpeg" alt="" width="56px" height="56px">
+                             </div>
+
+                             <div class="tstml-grid tstml-box-2">
+                               <p>John Doe</p>
+                                 <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                 </div>
+                             </div>
+                             <div class="tstml-grid tstml-box-3">
+                                 <img src="images/quote.png">
+                             </div>
+                             <div class="tstml-grid tstml-box-4">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                             </div>
+                             <div class="tstml-grid tstml-box-5">
+                               <p><i class="fas fa-minus"></i>Client MPS</p>
+                             </div>
+                         </div>
+                        </div>
+                       
+                      
+
+                    <label class="prev" for="t1"><span>&#x2039;</span></label>
+                    <label class="next" for="t3"><span>&#x203a;</span></label>
+                
+              </div>
+                  
+              <div class="tstml-box" id="tstml3">
+  
+                    <div class="tstml-box-left">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                             <img src="images/portrait/p5.jpeg" alt="" width="56px" height="56px">
+                           </div>
+
+                           <div class="tstml-grid tstml-box-2">
+                             <p>Amelie Clarra</p>
+                               <div class="stars">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="far fa-star"></i>
+                                 <i class="far fa-star"></i>
+                               </div>
+                           </div>
+                           <div class="tstml-grid tstml-box-3">
+                               <img src="images/quote.png" >
+                           </div>
+                           <div class="tstml-grid tstml-box-4">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                           </div>
+                           <div class="tstml-grid tstml-box-5">
+                             <p><i class="fas fa-minus"></i>Client MPS</p>
+                          </div>
+                       </div>
+                      </div>
+
+                       <div class="tstml-box-right">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                               <img src="images/portrait/p6.jpeg" alt="" width="56px" height="56px">
+                             </div>
+
+                             <div class="tstml-grid tstml-box-2">
+                               <p>Cocuz Alex</p>
+                                 <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                 </div>
+                             </div>
+                             <div class="tstml-grid tstml-box-3">
+                                 <img src="images/quote.png">
+                             </div>
+                             <div class="tstml-grid tstml-box-4">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                             </div>
+                             <div class="tstml-grid tstml-box-5">
+                               <p><i class="fas fa-minus"></i>Client MPS</p>
+                             </div>
+                         </div>
+                        </div>
+                       
+                     
+
+                    <label class="prev" for="t2"><span>&#x2039;</span></label>
+                    <label class="next" for="t4"><span>&#x203a;</span></label>
+              </div>
+            
+              <div class="tstml-box" id="tstml4">
+  
+                    <div class="tstml-box-left">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                             <img src="images/portrait/p7.jpeg" alt="" width="56px" height="56px">
+                           </div>
+
+                           <div class="tstml-grid tstml-box-2">
+                             <p>Scandura Andrei</p>
+                               <div class="stars">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="far fa-star"></i>
+                                 <i class="far fa-star"></i>
+                               </div>
+                           </div>
+                           <div class="tstml-grid tstml-box-3">
+                               <img src="images/quote.png" >
+                           </div>
+                           <div class="tstml-grid tstml-box-4">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                           </div>
+                           <div class="tstml-grid tstml-box-5">
+                             <p><i class="fas fa-minus"></i>Client MPS</p>
+                           </div>
+                       </div>
+                      </div>
+
+                       <div class="tstml-box-right">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                               <img src="images/portrait/p8.jpeg" alt="" width="56px" height="56px">
+                             </div>
+
+                             <div class="tstml-grid tstml-box-2">
+                               <p>Fanatan Cristina</p>
+                                 <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                 </div>
+                             </div>
+                             <div class="tstml-grid tstml-box-3">
+                                 <img src="images/quote.png">
+                             </div>
+                             <div class="tstml-grid tstml-box-4">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                             </div>
+                             <div class="tstml-grid tstml-box-5">
+                               <p><i class="fas fa-minus"></i>Client MPS</p>
+                             </div>
+                         </div>
+                        </div>
+                      
+                       
+
+                    <label class="prev" for="t3"><span>&#x2039;</span></label>
+                    <label class="next" for="t5"><span>&#x203a;</span></label>
+              </div>
+            
+              <div class="tstml-box" id="tstml5">
+  
+                    <div class="tstml-box-left">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                             <img src="images/portrait/p9.jpeg" alt="" width="56px" height="56px">
+                           </div>
+
+                           <div class="tstml-grid tstml-box-2">
+                             <p>Aurel Vlaicu</p>
+                               <div class="stars">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="far fa-star"></i>
+                                 <i class="far fa-star"></i>
+                               </div>
+                           </div>
+                           <div class="tstml-grid tstml-box-3">
+                               <img src="images/quote.png" >
+                           </div>
+                           <div class="tstml-grid tstml-box-4">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                           </div>
+                           <div class="tstml-grid tstml-box-5">
+                             <p><i class="fas fa-minus"></i>Client MPS</p>
+                           </div>
+                       </div>
+                    </div>
+
+                       <div class="tstml-box-right">
+                         <div class="tstml-second-box">
+                           <div class="tstml-grid tstml-box-1">
+                               <img src="images/portrait/p10.jpeg" alt="" width="56px" height="56px">
+                             </div>
+
+                             <div class="tstml-grid tstml-box-2">
+                               <p>Pop Ionut</p>
+                                 <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                 </div>
+                             </div>
+                             <div class="tstml-grid tstml-box-3">
+                                 <img src="images/quote.png">
+                             </div>
+                             <div class="tstml-grid tstml-box-4">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque ut alias consequuntur quam placeat vitae reiciendis blanditiis repellat. Cupiditate, natus illum atque eum amet nisi maxime hic!</p>
+                             </div>
+                             <div class="tstml-grid tstml-box-5">
+                               <p><i class="fas fa-minus"></i>Client MPS</p>
+                             </div>
+                         </div>
+                        </div>
+                       
+                       
+
+                    <label class="prev" for="t4"><span>&#x2039;</span></label>
+                    <label class="next" for="t1"><span>&#x203a;</span></label>
+                  </div>
+              
+            
+              <div class="tstml-nav">
+                <label for="t1" class="tstml" id="tst1"></label>
+                <label for="t2" class="tstml" id="tst2"></label>
+                <label for="t3" class="tstml" id="tst3"></label>
+                <label for="t4" class="tstml" id="tst4"></label>
+                <label for="t5" class="tstml" id="tst5"></label>
+              </div>
+                
+    </div>
+ 
+  </div>
+
+
+
+                            <!-- Section E - Costumers Logo -->
+
+<div id="section-E" class="section-E">
+    <div class="logo-section">
+        <div class="inner-logo">
+          <div class="logo-boxes">
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo1.png" alt="">
+              </div>
+            </div>
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo2.png" alt="">
+              </div>
+            </div>
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo3.png" alt="">
+              </div>
+            </div>
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo4.png" alt="">
+              </div>
+            </div>
+    
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo5.png" alt="">
+              </div>
+            </div>
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo6.png" alt="">
+              </div>
+            </div>
+    
+            <div class="logo-box">
+              <div class="logo-container">
+              <img src="images/logo/logo7.png" alt="">
+              </div>
+             </div>
+    
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+                            <!-- Section F - Blog -->
+
+<div id="section-F" class="section-F container">
+
+    <div class="blog-container">
+      
+            <div class="blog-section-title">
+                <p class="mps">De pe blog</p>
+                <h2 class="blog-section-header">ultimele <b>articole</b></h2>
+            </div>
+
+            <div class="blog-boxes">
+
+              <div class="blog-box">
+                <div class="blog">
+                  <img src="images/blog/b3.png" alt="">
+                  <div class="border"></div>
+                  <div class="blog-desc"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. In.</b></div>
+                  <div class="date">
+                      <p><i class="far fa-clock"></i>26 Mai 2019</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="blog-box">
+                <div class="blog">
+                  <img src="images/blog/b2.png" alt="">
+                  <div class="border"></div>
+                  <div class="blog-desc"><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis</b></div>
+                  <div class="date">
+                    <p><i class="far fa-clock"></i>26 Mai 2019</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="blog-box">
+                <div class="blog">
+                  <img src="images/blog/b4.png" alt="">
+                  <div class="border"></div>
+                  <div class="blog-desc"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum</b></div>
+                  <div class="date">
+                    <p><i class="far fa-clock"></i>26 Mai 2019</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    </div>
+</div>
+
+
+
+                            <!-- Section G - Contact Bar  -->
+                            
+<div id="section-G" class="section-G">
+  <div class="banner-container container">
+
+      <div class="banner-box1">
+        <div class="banner-img">
+          <img src="images/logo/phone.png" alt="">
+        </div>
+          <div class="smallbox">
+            <p class="title"><b>Telefon fix:</b></p>
+            <p class="details">+40 31 436 94 22</p>
+          </div>
+      </div>
+
+      <div class="banner-box2">
+        <div>
+          <img src="images/logo/mail.png" alt="">
+        </div>
+        <div class="smallbox">
+            <p class="title"><b>E-mail:</b></p>
+            <p class="details">office@mspro.ro</p>
+          </div>
+      </div>
+
+      <div class="banner-box3">
+        <div>
+          <img src="images/logo/location.png" alt="">
+        </div>
+        <div class="smallbox">
+            <p class="title"><b>Adresa:</b></p>
+            <p class="details">P-ta Mihail Kogalniceanu, nr. 8, Bucuresti</p>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+
+
+                            <!-- Section H - footer nav -->
+  
+<div id="section-H" class="section-H">
+
+    <div class="footer container">
+        <div class="footer-box1">
+            <div class="footer-title">
+              <p>Cadru legislativ</p>
+            </div>
+            <div class="footer-border"><p class="b1"></p><p class="b2"></p></div>
+            <div class="footer-desc">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, sed neque magni voluptate nihil commodi error!</p>
+            </div>
+            <a href="#">Mai Multe<i class="fa fa-arrow-right"></i></a>
+        </div>
+            
+        <div class="footer-box2">
+             <div class="footer-title">
+              <p>Servicii</p>
+            </div>
+            <div class="footer-border"><p class="b1"></p><p class="b2"></p></div>
+            <div class="footer-desc">
+                <ul>
+                    <li><i class="fa fa-check"></i>Recrutare</li>
+                    <li><i class="fa fa-check"></i>Imigrare</li>
+                    <li><i class="fa fa-check"></i>Permise Sedere</li>
+                    <li><i class="fa fa-check"></i>Obtinere Vize</li>
+                    <li><i class="fa fa-check"></i>Ce spun clientii</li>
+                    <li><i class="fa fa-check"></i>Comunicare</li>
+                    <li><i class="fa fa-check"></i>Consiliere</li>
+                 </ul>
+            </div>
+        </div>
+
+        <div class="footer-box3">
+            <div class="footer-title">
+              <p>Navigatie</p>
+            </div>
+            <div class="footer-border"><p class="b1"></p><p class="b2"></p></div>
+            <div class="footer-desc">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Mission</li>
+                    <li>Services</li>
+                    <li>Ce spun clientii</li>
+                    <li>Partners</li>
+                    <li>Get in touch</li>
+                  </ul>
+            </div>
+        </div>
+
+        <div class="footer-box4">
+            <div class="footer-title">
+              <p>Social</p>
+            </div>
+            <div class="footer-border"><p class="b1"></p><p class="b2"></p></div>
+            <div class="footer-desc">
+                <ul>
+                    <li><i class="fa fa-facebook" ></i>Facebook</li>
+                    <li><i class="fa fa-instagram"></i>Instagram</li>
+                    <li><i class="fa fa-linkedin"></i>Linkedin</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                              <!-- Section I - footer copy right -->
+                      
+<div id="section-I" class="section-I">
+    <div class="copy container">
+      <div class="nimic"></div>
+      <div>
+        <p>&copy MPS - Multi Profesional Solutions 2019. Web Design by <a>Softimpera</a></p>
+      </div>
+      
+      <div class="arrow"><i class="fa fa-angle-up"></i></div>
+    </div>
+</div>
+
+</body>                            
+</html>
